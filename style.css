@@ -1,11 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body{
-    font-family: sans-serif;
+    font-family: 'Roboto',sans-serif;
+   text-align: center ;
+   margin: 0;
+   padding: 0;
+   
 }
-h2, h3 {
-   color: #00a2c6
+main{
+   padding: 30px;
 }
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #00c8eb;
+   text-align: center;
+   color: white;
+}
+
+.featured-image{
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 30px;
+   margin-top: 50px;
+}
+nav{
+   background-color:#00a2c6;
+   padding: 10px;
+}
+
+nav li{
+   display: inline;
+   list-style-type: none;
+   margin-right: 35px;
+   
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+nav a:hover {
+   font-size: 30px;
+   font-weight: bold;
+   text-decoration: none;
+   color: white;
+}
+
+ .btn-header{
+   margin: 10px 0px 30px 10px;
+   text-shadow: 0px 5px 27px #080808;
+   color: #f3f3f3;
+  
+   background-color: #00a2c6;
+   
+  
+   
+}
+aside header{
+   background-color: #00a2c6;
+   color: white;
+   box-shadow: 0px 0px 50px 10px #c5c2c2;
+  border: 10px solid white;
+  border-radius: 20px 10px 20px 10px;
+  padding: 0px;
+   text-align: center;
+   margin: 100px 50px 100px 50px;
+   
+}
+.profile img{
+  width: 200px;
+}
+.btn-table{
+
+ margin: auto;
+ 
+}
+
 footer {
+
+   margin-top: 20px;
    padding: 5px;
    color: white;
-   background-color: #00a2c6
+   background-color: #00a2c6;
+   
 }
